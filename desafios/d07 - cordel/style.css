@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --main-color: white;
+    --color-black: black;
+    --div: rgba(0, 0, 0, 0.185); 
+    --highlight-font: 'Space Grotesk', 'Arial', 'Cursive';
+    
+}
+
+
+
+header {
+    font-family: var(--highlight-font);
+    background-color: black;
+    height: 200px;
+    color: white;
+    text-align: center;
+    
+    
+
+}
+
+header h1 {
+    font-size: 4em;
+    padding-top: 50px;
+    
+}
+
+header p {
+    margin-top: 5px;
+}
+
+header p > a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+header p > a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    width: 400px;
+   
+    
+}
+
+.normal {
+    font-family: var(--highlight-font);
+    margin-top: 100px;
+    font-size: 2.3em;
+    text-align: left;
+    padding-left: 40px;
+    text-transform: capitalize;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    margin-top: 50px;
+    
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+footer a {
+    font-family: var(--highlight-font);
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer p > a:hover {
+    color: white;
+    text-decoration: underline;
+}
+    
