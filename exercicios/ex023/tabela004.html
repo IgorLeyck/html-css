@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.5em;
+            padding: 10px;
+            font-weight: bolder;
+        }
+
+
+        tr, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .cgrupo {
+            background-color: purple;
+        }
+
+        .cinfo {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cgrupo" span="2">
+            <col class="cinfo" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr> 
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Paulo Henrique</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Advogado</td>
+        </tr>
+        <tr>
+            <td>José Carlos</td>
+            <td>M</td>
+            <td>33</td>
+            <td>Pedreiro</td>
+        </tr>
+        <tr>
+            <td>Júlia Castro</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Igor Leyck</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Beatriz de Souza</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Nutricionista</td>
+        </tr>
+        <tr>
+            <td>Valentina</td>
+            <td>F</td>
+            <td>36</td>
+            <td>Professora</td>
+        </tr>
+    </table>
+</body>
+</html>
